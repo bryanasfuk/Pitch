@@ -62,8 +62,12 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Watch On YouTube 🎬",
-                        url=f"{url}")
-                   
+                        url=f"{url}"
+                    ),
+                    InlineKeyboardButton(
+                        text="IG Own",
+                        url="https://www.instagram.com/sahmdmol_"
+                    )   
                 ]
             ]
         )
@@ -74,7 +78,11 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                         text="Watch On YouTube 🎬",
                         url=f"{url}")
-                   
+                    ),
+                    InlineKeyboardButton(
+                        text="IG Own",
+                        url="https://www.instagram.com/sahmdmol_"
+                    )
                 ]
             ]
         )
