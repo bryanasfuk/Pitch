@@ -27,8 +27,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🔊 Channel",
-                        url="https://t.me/Infinity_BOTs")
+                        text="🔊 Official Group",
+                        url="https://t.me/syntychegroup")
                    
                 ]
             ]
@@ -40,7 +40,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"❌ Videos longer than {DURATION_LIMIT} minute(s) aren't allowed to play!"
+                f"🖕 Videos longer than {DURATION_LIMIT} minute(s) aren't allowed to play!"
             )
 
         file_name = get_file_name(audio)
