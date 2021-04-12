@@ -9,11 +9,11 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
     await message.reply_text(
-        f"""**Hey, I'm {bn} 🎵
+        f"""**Aloo, Aku {bn} 🎵
 
-I can play music in your group's voice call. Developed by [Jason](https://t.me/ImJanindu).
+Music Bot Group [Syntyche](t.me/syntychegroup) & [FvckgPrtnr](t.me/grupasikkchekk) . Manage by [♏ol](https://t.me/betterthaanhecan).
 
-Add me to your group and play music freely!**
+Add meGausa dipake Bot Jelek:p!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -22,10 +22,10 @@ Add me to your group and play music freely!**
                         "🛠 Source Code 🛠", url="https://github.com/ImJanindu/GroupMusicBot")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/InfinityBOTs_Support"
+                        "Find On Group", url="https://t.me/syntychegroup"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs"
+                        "Join Channel", url="https://t.me/ruangpublikk"
                     )
                 ],[ 
                     InlineKeyboardButton(
@@ -43,7 +43,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs")
+                        "Official Group", url="https://t.me/syntychegroup")
                 ]
             ]
         )
