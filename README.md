@@ -1,7 +1,7 @@
-<h2 align="centre">VC MUSIC TELEGRAM EUPHORIA MUSIC BOT 🎵</h2>
+<h2 align="centre">VC Music Di Telegram 🎵</h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/a8f5fd1ff03d0466fd0f9.jpg">
+  <img src="https://telegra.ph/file/9346b5e8ee71943bc86a4.jpg">
 </p>
 
 <h3>Requirements 📝</h3>
