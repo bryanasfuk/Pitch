@@ -7,13 +7,13 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
+    await message.reply_sticker("CAADBQADnwEAAt7ZIVUGzRkM9dYMfQI")
     await message.reply_text(
-        f"""**Aloo, Aku {bn} 🎵
+        f"""**Eyo, Gua {bn} 🎵
 
-Music Bot Group [Syntyche](t.me/syntychegroup) & [FvckgPrtnr](t.me/grupasikkchekk) . Manage by [♏ol](https://t.me/betterthaanhecan).
+Music Bot Group [LazyRich™](t.me/verylazyrich) & Manage by [bryan](https://t.me/deadasfck).
 
-Add meGausa dipake Bot Jelek:p!**
+Kalo mau pake chat aja bryan!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -22,10 +22,10 @@ Add meGausa dipake Bot Jelek:p!**
                         "🛠 Source Code 🛠", url="https://github.com/ImJanindu/GroupMusicBot")
                   ],[
                     InlineKeyboardButton(
-                        "Find On Group", url="https://t.me/syntychegroup"
+                        "Find On Group", url="https://t.me/verylazyrich"
                     ),
                     InlineKeyboardButton(
-                        "Join Channel", url="https://t.me/ruangpublikk"
+                        "Join Channel", url="https://t.me/fckinganxiety"
                     )
                 ],[ 
                     InlineKeyboardButton(
@@ -43,7 +43,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Official Group", url="https://t.me/syntychegroup")
+                        "Official Group", url="https://t.me/verylazyrich")
                 ]
             ]
         )
