@@ -65,8 +65,8 @@ async def play(_, message: Message):
                         url=f"{url}"
                     ),
                     InlineKeyboardButton(
-                        text="IG Own",
-                        url="https://www.instagram.com/sahmdmol_"
+                        text="Follow Ig",
+                        url="https://www.instagram.com/fckshtimout"
                     )   
                 ]
             ]
@@ -80,8 +80,8 @@ async def play(_, message: Message):
                         url=f"{url}"
                     ),
                     InlineKeyboardButton(
-                        text="IG Own",
-                        url="https://www.instagram.com/sahmdmol_"
+                        text="Follow Ig",
+                        url="https://www.instagram.com/fckshtimout"
                     )
                 ]
             ]
