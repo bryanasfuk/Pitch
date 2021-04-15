@@ -51,17 +51,17 @@ async def play(_, message: Message):
     elif url:
         file_path = await converter.convert(youtube.download(url))
     else:
-        return await lel.edit_text("❗ kamu tidak memberikan link bokep untuk di play!")
+        return await lel.edit_text("❗Link salah ganteng!")
 
     if message.chat.id in callsmusic.pytgcalls.active_calls:
         position = await queues.put(message.chat.id, file=file_path)
-        await lel.edit(f"#⃣ **Playlist** di nomer {position}!")
+        await lel.edit(f"#⃣ **Queued** in position {position}!")
     else:
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
         await message.reply_photo(
-        photo="https://telegra.ph/file/a4fa687ed647cfef52402.jpg",
+        photo="https://telegra.ph/file/94255b2d4de7896ef4451.jpg",
         reply_markup=keyboard,
-        caption="▶️ **Memulai** ini bokep yang di request oleh {}!".format(
+        caption="▶️ **Playing** request by {}!".format(
         message.from_user.mention()
         ),
     )
